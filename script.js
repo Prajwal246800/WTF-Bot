@@ -66,7 +66,58 @@ Our applications are NOW OPEN! We're looking for founders who are ready to seize
 
 🔗 Apply Now: http://www.allthingswtf.com/wtfund
 
-As an AI application filter and startup analyzer, you will play a crucial role in evaluating applications based on specific metrics and providing insightful analyses to support investment decisions.`;
+As an AI application filter and startup analyzer, you will play a crucial role in evaluating applications based on specific metrics and providing insightful analyses to support investment decisions.
+Nikhil Kamath: The Journey from School Dropout to Billionaire Entrepreneur
+
+Nikhil Kamath, born on September 5, 1986, in Shimoga, Karnataka, India, is a prominent Indian entrepreneur known for his ventures in the financial and asset management sectors. He co-founded Zerodha, a leading retail stockbroker, and True Beacon, an asset management company, both of which have significantly impacted the Indian financial landscape. Kamath's remarkable journey from a school dropout to a billionaire is a testament to his entrepreneurial spirit and innovative approach.
+
+Early Life and Education
+Nikhil Kamath was born in Shimoga, Karnataka. His early educational journey was unconventional; he dropped out of school after completing the 10th grade and never pursued a formal degree. This decision, while seemingly risky, did not hinder his path to success. Instead, it propelled him into the real world early, where he gained practical experience that would later prove invaluable.
+
+Career Beginnings
+Kamath's career started modestly with a job at a call center. Simultaneously, he engaged in equity trading, developing a keen interest and expertise in the stock market. In 2006, leveraging his growing knowledge and experience, Kamath became a sub-broker and, along with his brother Nithin Kamath, started Kamath & Associates. This brokerage firm focused on managing high-net-worth individual portfolios in the public markets, setting the foundation for their future ventures.
+
+Founding Zerodha
+In 2010, Kamath and his brother co-founded Zerodha, a brokerage firm that revolutionized the industry with its discount brokerage model. Zerodha provides brokerage services for stocks, currencies, and commodities, and its innovative approach significantly reduces the commission charged for transactions. This model democratized investment, making it accessible to the masses and transforming Zerodha into one of India's leading brokerage firms.
+
+Establishing True Beacon
+In 2020, Kamath co-founded True Beacon, an asset management company designed to assist ultra-high-net-worth individuals in investing in Indian markets through privately pooled investment vehicles. True Beacon aims to disrupt the traditional wealth management arena with its transparent and client-centric approach.
+
+Launching Gruhas
+In 2021, Kamath expanded his entrepreneurial portfolio by co-founding Gruhas, a real estate investment and proptech company, with Abhijeet Pai. Gruhas invests in incubators, startups, and special situations through its proptech-focused fund, contributing to the growth and innovation in the real estate sector.
+
+The "WTF is?" Podcast
+March 2023 marked the beginning of Kamath's foray into the media space with the launch of the "WTF is?" podcast. By April 2024, he had hosted notable public figures and entrepreneurs such as Tanmay Bhat, Kiran Mazumdar-Shaw, Suniel Shetty, Ritesh Agarwal, and Ronnie Screwvala, providing a platform for insightful conversations and knowledge sharing.
+
+Philanthropic Commitments
+In June 2023, Kamath made a significant philanthropic commitment by signing The Giving Pledge, vowing to donate 50% of his wealth to charitable causes including climate change, education, and healthcare. This commitment underscores his dedication to leveraging his success for the greater good.
+
+Chess.com Charity Match Controversy
+In June 2021, Kamath participated in an online charity chess match against five-time world chess champion Viswanathan Anand to raise funds for COVID-19 relief. However, the event took a controversial turn when Kamath was found to have used chess analysts and engines for assistance during the game. He later apologized for his actions, calling them 'quite silly,' and Chess.com initially banned his account. The platform quickly restored his account, citing its guidelines for unrated games and exhibition events, and Anand publicly forgave Kamath, suggesting it was time to move on.
+
+Recognition and Impact
+Nikhil Kamath's entrepreneurial journey and contributions have earned him a place in the 2023 Forbes billionaires list. His ventures have not only disrupted traditional financial and asset management industries but also inspired many aspiring entrepreneurs.
+
+Kamath's journey exemplifies how non-traditional paths can lead to extraordinary success. His story is a powerful reminder that innovation, resilience, and a commitment to broader societal impact can drive significant change in any industry.
+WTFund: Empowering Young Entrepreneurs
+
+WTFund is India’s premier non-dilutive grant fund for emerging entrepreneurs under the age of 25. The initiative seeks innovative, driven, and visionary young founders who aim to transform their industries through groundbreaking ideas. WTFund offers a structured growth opportunity with a focus on collaboration, mentorship, and resilience.
+
+Key Offerings
+Non-Dilutive Grant: INR 20 Lakh with no equity stake.
+Mentorship: Guidance from experienced operators.
+Ecosystem Access: User connections and GTM (Go-To-Market) Studio.
+Product Refinement: Community feedback and beta testing.
+Talent Pool: Internship programs and fractional CXO database.
+Operational Support: Legal, financial, and cloud service credits.
+Investor Exposure: Showcase opportunities at high-profile demo days.
+Application Process
+WTFund’s application process is an in-depth exploration of each founder’s motivations, determination, and tenacity, ensuring a thorough assessment of potential.
+
+For more details, visit https://www.allthingswtf.com/wtfund.
+All Things WTF: Empowering Young Innovators
+
+All Things WTF is a platform dedicated to supporting and empowering young entrepreneurs under 25. It features the WTFund, which offers non-dilutive grants and a comprehensive support ecosystem to help founders launch and scale their startups. The platform emphasizes mentorship, community engagement, and operational support, ensuring that young innovators receive the necessary tools and guidance to succeed.`;
             chatHistory.push({
                 role: 'user',
                 parts: [
