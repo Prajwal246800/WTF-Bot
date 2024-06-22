@@ -1,5 +1,5 @@
-import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "@google/generative-ai";
-import MarkdownIt from 'markdown-it';
+import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "./node_modules/@google/generative-ai";
+import MarkdownIt from './node_modules/markdown-it';
 // alert("Hello, world!");
 document.addEventListener('DOMContentLoaded', () => {
     // console.log('DOMContentLoaded');
