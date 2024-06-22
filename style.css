@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    /* user-select: none; */
+}
+.img-cont {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    background-size: cover;
+}
+h2 {
+    text-align: center;
+    margin: 0 0;
+    color: #333;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+pre {
+    text-align: center;
+    color: #666;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+.input-box {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: vertical;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #000;
+    color: #FFF;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-height: 50px;
+}
+#startButton, #stopButton {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+#stopButton {
+    background-color: #dc3545;
+}
+#startButton:hover {
+    background-color: #218838;
+}
+#stopButton:hover {
+    background-color: #c82333;
+}
+.output pre {
+    background-color: #FFF;
+    color: black;
+    text-align: left;
+    padding: 15px;
+    margin: 5px;
+    overflow-x: scroll;
+    user-select:contain;
+    border-radius: 10px;
+    border: 10px solid #888;
+
+}
+.output pre::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+.output pre::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.output pre::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.output pre::-webkit-scrollbar {
+    height: 15px;
+}
+.output pre::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+}
+audio {
+    position: hidden;
+}
+.prompt{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    margin-top: 10px;
+}

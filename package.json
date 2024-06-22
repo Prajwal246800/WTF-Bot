@@ -1,0 +1,17 @@
+{
+  "name": "wtf-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node": "^20.15.0",
+    "vite": "^5.3.1"
+  }
+}

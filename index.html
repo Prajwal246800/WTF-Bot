@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/api.js"></script>
+</head>
+<body>
+    <div class="img-cont">
+        <img src="image.png">
+    </div>
+    <h2>AUTOMATED CALL</h2>
+    <pre>How To Use And Other INFO</pre>
+    <div class="input-box">
+        <form>
+            <textarea cols="80" rows="10" type="text" name="prompt" placeholder="Enter Chatbot Role And Prompt Here"></textarea>
+            <textarea cols="80" rows="10" type="text" name="Queries" placeholder="Enter Your Queries Here"></textarea>
+            <button>Go</button>
+        </form>
+        <button id="startButton">Start Recording</button>
+        <button id="stopButton">Stop Recording</button>
+        <div class="output" id="output"></div>
+    </div>
+    <audio id="myAudio" src="./audio.wav"></audio>
+    <script type="module" src="script.js"></script>
+    <!-- <script type="module" src="scheduleCall.js"></script> -->
+</body>
+
+</html>
