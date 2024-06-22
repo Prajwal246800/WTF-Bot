@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="https://apis.google.com/js/api.js"></script>
+    <title>Automated Call</title>
 </head>
+
 <body>
     <div class="img-cont">
-        <img src="image.png">
+        <img src="image1.jpg">
     </div>
-    <h2>AUTOMATED CALL</h2>
-    <pre>How To Use And Other INFO</pre>
+    <h2>WTF AI CALLBOT</h2>
+    <pre>Any Questions Regarding WTF</pre>
     <div class="input-box">
         <form>
-            <textarea cols="80" rows="10" type="text" name="prompt" placeholder="Enter Chatbot Role And Prompt Here"></textarea>
-            <textarea cols="80" rows="10" type="text" name="Queries" placeholder="Enter Your Queries Here"></textarea>
-            <button>Go</button>
+            <!-- <textarea id="prompt" cols="80" rows="10" placeholder="Enter Chatbot Role And Prompt Here"></textarea> -->
+            <textarea id="queries" name="queries" cols="80" rows="10" placeholder="Press Start Button To Call" disabled></textarea>
+            <!-- <button id="goButton">Go</button> -->
         </form>
-        <button id="startButton">Start Recording</button>
-        <button id="stopButton">Stop Recording</button>
+        <button id="startButton">Start Calling</button>
+        <button id="stopButton">Stop Calling</button>
         <div class="output" id="output"></div>
     </div>
     <audio id="myAudio" src="./audio.wav"></audio>
-    <script type="module" src="script.js"></script>
-    <!-- <script type="module" src="scheduleCall.js"></script> -->
+        <script type="module" src="script.js"></script>
 </body>
 
 </html>

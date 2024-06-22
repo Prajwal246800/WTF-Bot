@@ -1,84 +1,91 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #fff;
-    /* user-select: none; */
+    padding: 50px 0 0 0;
+    user-select: none;
+    background: linear-gradient(to right, #136a8a, #267871);
 }
-.img-cont {
-    width: 100%;
-    height: 160px;
-    text-align: center;
-    background-size: cover;
+.img-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+img{
+    height: 100%;
 }
 h2 {
     text-align: center;
-    margin: 0 0;
-    color: #333;
-    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
 }
+
 pre {
     text-align: center;
-    color: #666;
-    margin: 10px 0 10px 0;
+    color: whitesmoke;
+    margin: 10px 0;
     font-size: 20px;
 }
+
 .input-box {
     width: 80%;
+    padding-left: 40px;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
+
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    width: 95%;
+    padding: 15px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     resize: vertical;
+    background-color: #f9f9f9;
 }
+
 button {
     display: inline-block;
-    padding: 10px 20px;
-    margin: 5px 0;
+    padding: 15px 30px;
+    margin: 10px 0;
     border: none;
-    border-radius: 4px;
-    background-color: #007bff;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #42a5f5, #478ed1);
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
+
 button:hover {
-    background-color: #0056b3;
+    transform: translateY(-3px);
 }
+
 .output {
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: #000;
     color: #FFF;
     border: 1px solid #ccc;
     border-radius: 4px;
     min-height: 50px;
 }
+
 #startButton, #stopButton {
-    background-color: #28a745;
     margin-right: 10px;
 }
-#stopButton {
-    background-color: #dc3545;
+
+#startButton:hover, #stopButton:hover {
+    transform: translateY(-3px);
 }
-#startButton:hover {
-    background-color: #218838;
-}
-#stopButton:hover {
-    background-color: #c82333;
-}
+
 .output pre {
     background-color: #FFF;
     color: black;
@@ -86,31 +93,36 @@ button:hover {
     padding: 15px;
     margin: 5px;
     overflow-x: scroll;
-    user-select:contain;
     border-radius: 10px;
     border: 10px solid #888;
-
 }
+
 .output pre::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
+
 .output pre::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px;
 }
+
 .output pre::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+
 .output pre::-webkit-scrollbar {
     height: 15px;
 }
+
 .output pre::-webkit-scrollbar-corner {
     background: #f1f1f1;
 }
+
 audio {
-    position: hidden;
+    display: none;
 }
-.prompt{
+
+.prompt {
     width: 100%;
     height: 100px;
     border: 1px solid black;
