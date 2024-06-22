@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from "./node_modules/@google/generative-ai";
 import MarkdownIt from './node_modules/markdown-it';
+import audioFile from './audio/audio.mp3';
 // alert("Hello, world!");
 document.addEventListener('DOMContentLoaded', () => {
     // console.log('DOMContentLoaded');
@@ -84,7 +85,7 @@ As an AI application filter and startup analyzer, you will play a crucial role i
                     parts: entry.parts
                 }))
             ];
-    
+
             const genAI = new GoogleGenerativeAI(API_KEY);
             const model = genAI.getGenerativeModel({
                 model: "gemini-pro",
@@ -95,11 +96,11 @@ As an AI application filter and startup analyzer, you will play a crucial role i
                     },
                 ],
             });
-    
+
             const result = await model.generateContentStream({ contents });
             let buffer = [];
             let md = new MarkdownIt();
-    
+
             for await (let response of result.stream) {
                 try {
                     let text = response.text();
@@ -111,7 +112,7 @@ As an AI application filter and startup analyzer, you will play a crucial role i
                     break; // Exit the loop if parsing fails
                 }
             }
-    
+
             chatHistory.push({
                 role: 'model',
                 parts: [
@@ -119,13 +120,13 @@ As an AI application filter and startup analyzer, you will play a crucial role i
                 ]
             });
             speakText(output.innerHTML);
-    
+
         } catch (e) {
             console.error('Error in getGeminiResponse:', e);
             output.innerHTML += '<hr>' + e.message;
         }
     }
-    
+
 
     // form.onsubmit = async (ev) => {
     //     ev.preventDefault();
@@ -234,7 +235,7 @@ As an AI application filter and startup analyzer, you will play a crucial role i
         }
     });
     function playAudioForDuration() {
-        var audio = document.getElementById('myAudio');
+        const audio = new Audio(audioFile);
         audio.play();
         setTimeout(function () {
             audio.pause();
